@@ -1,0 +1,12 @@
+#sequencer {
+    
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    grid-gap: 5px;
+}
+
+button {
+
+    margin:5px;
+
+}
