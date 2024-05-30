@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
     const sounds = {
-        kick: 'sounds/kick.wav',
-        snare: 'sounds/snare.wav',
-        hihat: 'sounds/hihat.wav',
-        clap: 'sounds/clap.wav',
+        kick: 'kick.mp3',
+        snare: 'snare.mp3',
+        hihat: 'hihat.mp3',
+        ride: 'ride.mp3',
     };
 
     const audioBuffers = {};
