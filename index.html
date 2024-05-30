@@ -16,18 +16,16 @@
         <h1>Online Drum Sequencer</h1>
         
         <div id="sequencer">
-            <!-- Grid generated here-->
-        </div>
-       
-        <div>
+          <div id="controls">
             <button id="play">Play</button>
             <button id="stop>">Stop</button>
             <button is="clear">Clear</button>
-            <input type="range" id="tempo" min="60" max="200" value="120">
-            <label for="tempo">Tempo</label>
+            <input type="range" id="tempo" min="60" max="180" value="120">
+            <label for="tempo">Tempo: <span id="tempo-value">120</span> BPM</label>
+        </div>
         </div>
     
-        <script src="script.js"></script>
+        <script src="sequencer.js"></script>
     
     </body>
 
